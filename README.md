@@ -47,43 +47,43 @@ Descripción del Proyecto
 Desarrollar una aplicación web para gestionar el inventario de una ferretería. Los usuarios podrán ver los productos disponibles, agregar nuevos productos, editar la información de productos existentes y eliminar productos del inventario. Además, la aplicación deberá contar con una interfaz intuitiva y fácil de usar para facilitar el control del stock.
 Características de la Aplicación
 Frontend:
-•	Interfaz de usuario amigable para la visualización del inventario y la gestión de productos.
-•	Página principal con una tabla que muestre todos los productos en el inventario con sus detalles (nombre, descripción, cantidad, precio, etc.).
-•	Formularios para agregar, editar y eliminar productos.
-•	Funcionalidad de búsqueda para encontrar productos rápidamente por nombre o categoría.
-•	Opciones para ordenar productos por nombre, precio o cantidad.
+- Interfaz de usuario amigable para la visualización del inventario y la gestión de productos.
+- Página principal con una tabla que muestre todos los productos en el inventario con sus detalles (nombre, descripción, cantidad, precio, etc.).
+- Formularios para agregar, editar y eliminar productos.
+- Funcionalidad de búsqueda para encontrar productos rápidamente por nombre o categoría.
+- Opciones para ordenar productos por nombre, precio o cantidad.
 Backend:
-•	API RESTful que maneje las solicitudes del frontend y realice operaciones CRUD sobre los productos.
-•	Endpoints para gestionar los productos del inventario (Crear, Leer, Actualizar, Eliminar).
-•	Validación de datos para asegurar que los datos de productos sean correctos (precio positivo, cantidad disponible no negativa, etc.).
-•	Implementación de lógica para mantener actualizado el inventario, por ejemplo, restando unidades cuando se realiza una venta.
+- API RESTful que maneje las solicitudes del frontend y realice operaciones CRUD sobre los productos.
+- Endpoints para gestionar los productos del inventario (Crear, Leer, Actualizar, Eliminar).
+- Validación de datos para asegurar que los datos de productos sean correctos (precio positivo, cantidad disponible no negativa, etc.).
+- Implementación de lógica para mantener actualizado el inventario, por ejemplo, restando unidades cuando se realiza una venta.
 Base de Datos:
-•	Base de datos que almacene la información de los productos en el inventario.
-•	Modelo de datos simple que contenga: nombre del producto, descripción, categoría, cantidad disponible, precio por unidad.
-•	Posibilidad de registrar movimientos de stock, como ventas o entradas de productos nuevos.
-•	Opciones de búsqueda por categorías de productos (herramientas, materiales, etc.).
+- Base de datos que almacene la información de los productos en el inventario.
+- Modelo de datos simple que contenga: nombre del producto, descripción, categoría, cantidad disponible, precio por unidad.
+- Posibilidad de registrar movimientos de stock, como ventas o entradas de productos nuevos.
+- Opciones de búsqueda por categorías de productos (herramientas, materiales, etc.).
 Tecnologías Sugeridas
 Frontend: HTML, CSS, JavaScript (se puede utilizar React.js o Vue.js para mayor dinamismo).
 Backend: Node.js con Express.js para la creación de la API RESTful.
 Base de Datos: MongoDB (NoSQL) para almacenamiento flexible, o MySQL/SQLite para un enfoque más estructurado.
 Funcionalidades Adicionales (Opcionales)
-•	Autenticación de usuarios: Permitir a los empleados iniciar sesión para gestionar el inventario.
-•	Notificaciones: Alertas cuando el stock de un producto esté por debajo de un umbral mínimo, indicando la necesidad de reabastecer.
-•	Generación de Reportes: Posibilidad de generar reportes con el inventario actual, movimientos de stock, y ventas realizadas.
-•	Integración con otras aplicaciones: Conexión con sistemas de ventas o contabilidad para actualizar automáticamente el inventario tras realizar una venta.
+- Autenticación de usuarios: Permitir a los empleados iniciar sesión para gestionar el inventario.
+- Notificaciones: Alertas cuando el stock de un producto esté por debajo de un umbral mínimo, indicando la necesidad de reabastecer.
+- Generación de Reportes: Posibilidad de generar reportes con el inventario actual, movimientos de stock, y ventas realizadas.
+- Integración con otras aplicaciones: Conexión con sistemas de ventas o contabilidad para actualizar automáticamente el inventario tras realizar una venta.
 Entregas del Proyecto:
 1.	Frontend:
-o	Página principal con listado de productos y sus opciones de gestión.
-o	Formularios para agregar, editar y eliminar productos.
-o	Funcionalidad de búsqueda y filtrado.
+-- Página principal con listado de productos y sus opciones de gestión.
+-- Formularios para agregar, editar y eliminar productos.
+-- Funcionalidad de búsqueda y filtrado.
 2.	Backend:
-o	API RESTful con endpoints para gestionar productos.
-o	Lógica de validación y manipulación de datos.
+-- API RESTful con endpoints para gestionar productos.
+-- Lógica de validación y manipulación de datos.
 3.	Base de Datos:
-o	Modelo de datos para productos e historial de movimientos de stock.
-o	Integración con la base de datos para operaciones CRUD.
+-- Modelo de datos para productos e historial de movimientos de stock.
+-- Integración con la base de datos para operaciones CRUD.
 4.	Documentación:
-o	Documentación del código explicando las funcionalidades de cada parte del sistema.
-o	Guía de uso para los administradores o empleados de la ferretería.
+-- Documentación del código explicando las funcionalidades de cada parte del sistema.
+-- Guía de uso para los administradores o empleados de la ferretería.
 Este es un esquema básico del sistema, pero se puede ampliar con más funcionalidades conforme sea necesario para cumplir con los requerimientos específicos de la ferretería.
 
